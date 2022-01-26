@@ -1,0 +1,6 @@
+import math
+from torch import Tensor
+import torch
+
+# In[4]:
+resnet = models.resnet101(pretrained=True)
